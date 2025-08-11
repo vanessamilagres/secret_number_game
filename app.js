@@ -1,5 +1,5 @@
 let randomNumberArray = []
-let limitNumber = 100
+let limitNumber = 50
 let randomNumber = generateRandomNumber() 
 let tryAttempt = 1
 
@@ -12,7 +12,7 @@ function textInView(tag, text){
 
 function inicialMessage(){
     textInView('h1', 'Jogo Alura')
-    textInView('p', 'Escolha um número entre 1 e 100')
+    textInView('p', 'Escolha um número entre 1 e 50')
 }
 
 inicialMessage()
